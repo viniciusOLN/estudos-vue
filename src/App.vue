@@ -1,24 +1,20 @@
 <template>
   <div id="app">
-    <cliente/>
+    <navbar/>
   </div>
 </template>
 
 <script>
 
-import cliente from './components/cliente'
+import navbar from './components/navbar'
 
 export default {
   name: 'App',
   components: {
-    cliente
+    navbar
   }
 }
 </script>
 
 <style>
-#app{
-  
-}
-
 </style>
